@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <a class="logo" href="#">Logo</a>
+        <ul class="navigation">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="sec">
+        <img src="pictures/moon.png" id="moon">
+        <img src="pictures/monutain_01.png"id="m1">
+        <img src="pictures/trees_02.png"id="t2">
+        <img src="pictures/monutain_02.png"id="m2">
+        <img src="pictures/trees_01.png"id="t1">
+        <img src="pictures/man.png"id="man">
+        <img src="pictures/plants.png"id="plants">
+        
+    </section>
+    <section class="text">
+        <h2>Alperen ilgaz</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum earum sit laudantium voluptas nam ducimus dolore aut ea sequi nostrum, libero odio magni cum explicabo, corporis eligendi quibusdam repellat atque consectetur voluptatibus ut repellendus! Minus cumque libero pariatur ab facilis id aliquam hic maxime consequuntur earum repellendus recusandae<br><br> reprehenderit molestias eveniet, dignissimos praesentium, aperiam, quas voluptatibus tenetur voluptas magni quasi excepturi. Hic, recusandae? Obcaecati quisquam sint temporibus libero sequi a. Ipsa cumque laudantium necessitatibus tempora ut ab fuga sed dolorem veniam ratione soluta eligendi nihil, nemo quod at placeat numquam aliquid asperiores doloremque sit dignissimos quisquam animi. Consequatur ducimus possimus tempore illum, maxime sed esse dicta exercitationem minima quas eum accusantium error optio nam aspernatur explicabo ad <br><br>expedita? Illo pariatur fugit quasi alias maxime quibusdam assumenda delectus,<br><br> culpa dolorem porro tempore aspernatur ullam earum, dignissimos cupiditate! Fugiat mollitia aliquam esse sint possimus hic similique delectus aperiam eaque. Illum tenetur fuga voluptas deserunt neque. Esse ipsam voluptatem repellat iusto? Nam consectetur cumque recusandae! Dolorum veritatis iusto, minima repellendus nihil sed officia optio accusantium dolore itaque explicabo rem neque debitis odit ullam laboriosam. Deserunt perferendis tenetur eligendi excepturi ipsam distinctio quas et obcaecati tempora veritatis, atque fuga libero id repellendus itaque voluptas voluptates. Fuga quis eaque numquam nobis porro nisi aperiam, assumenda commodi, quisquam exercitationem facere reprehenderit perferendis quia. Earum alias provident exercitationem commodi officiis praesentium minus, mollitia possimus. Id officiis ratione vitae? Amet ullam assumenda magni tenetur dolorem nihil iusto vero praesentium qui blanditiis, illo quo deserunt laborum harum sit provident nemo nobis. Soluta ad, perspiciatis dolores sint dignissimos minima laboriosam odio eum ea modi recusandae velit aut laudantium quis eveniet voluptatem! Eligendi nulla <br><br>natus provident aliquid, distinctio tenetur voluptates expedita, hic nam nostrum aliquam, nesciunt aperiam. Id earum officia laboriosam, odio, sint nemo cum ipsam temporibus atque aspernatur nisi cupiditate aliquid dicta. Facilis laborum accusamus error animi rerum eum rem adipisci veniam, nam in ea sunt quae, neque assumenda debitis quod dignissimos quidem distinctio officia! Consequatur, fugit dolorum. Sequi veniam modi itaque, inventore adipisci facilis nostrum perferendis et vitae cum doloribus doloremque atque similique soluta dolores est dolorum repellendus, suscipit saepe praesentium magnam neque quae officia quasi. Quasi molestiae tempore repellat qui ad hic sed consequatur, in, iste voluptatem minus quibusdam voluptas, beatae omnis dolores recusandae <br><br>voluptatum quod commodi. Illo perspiciatis sit expedita aperiam fugit voluptas quos consectetur hic et repellendus optio voluptatibus deleniti iste, natus magni eaque harum dolore quia incidunt ad ducimus? Provident fugiat amet commodi ab labore illum necessitatibus ipsum eaque dolores. Ducimus quo numquam quas reiciendis, commodi amet quasi mollitia, vel blanditiis saepe aliquam earum quaerat quis sapiente harum iure modi dolorem quidem soluta ipsam voluptatibus sequi ex. Illo vero reprehenderit ratione nobis perferendis eum? Magni ipsam nulla excepturi modi doloribus earum harum accusamus, molestias aliquid sed omnis aspernatur suscipit cupiditate fugit quam illo maxime vel sunt! Adipisci sit aperiam ex dignissimos odit ipsum ut, omnis ullam, vel quis consequatur veritatis, veniam magnam deleniti? Voluptatibus sapiente sunt consectetur. Fugiat qui reprehenderit nemo delectus pariatur, modi ipsum?</p>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script>
+       
+       gsap.from("#moon",{
+            scrollTrigger :{
+                scrub : true
+            },
+            x:500
+        })
+        gsap.from("#m1",{
+            scrollTrigger :{
+                scrub : true
+            },
+            y:80
+        })
+        gsap.from("#m2",{
+            scrollTrigger :{
+                scrub : true
+            },
+            y:100
+        })
+        gsap.from("#t2",{
+            scrollTrigger :{
+                scrub : true
+            },
+            y:100
+        })
+        gsap.from("#t1",{
+            scrollTrigger :{
+                scrub : true
+            },
+            y:90
+        })
+        gsap.from("#man",{
+            scrollTrigger :{
+                scrub : true
+            },
+            x:-170
+        })
+        gsap.from("#plants",{
+            scrollTrigger :{
+                scrub : true
+            },
+            x:-50
+        })
+    </script>    
+</body>
+</html>
